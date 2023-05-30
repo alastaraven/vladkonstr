@@ -583,7 +583,6 @@
 	}
 	.info .info-bottom {
 		display: flex;
-		flex-wrap: wrap;
 		gap: var(--main-gap);
 		padding-top: var(--main-padding);
 	}
@@ -619,6 +618,9 @@
 	@media screen and (max-width:1200px) {
 		.info .info-images {
 			display: none;
+		}
+		.info .info-bottom {
+			flex-wrap: wrap;
 		}
 	}
 
