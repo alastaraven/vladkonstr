@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- <link rel="stylesheet" href="libs/aos/aos.css"> -->
+	<title>Владконструкции</title>
+</head>
+
+<body>
+
+	<header class="header wrapper">
+		<div class="header__layout" data-aos="fade-down" data-aos-delay="100">
+			<div class="logo">
+				<img src="assets/images/logo@2x.jpg" alt="">
+			</div>
+		</div>
+		<div class="header__menu mobile-only">
+			<nav class="nav" data-aos="fade-right" data-aos-delay="200">
+				<ul>
+					<li class="nav-item">
+						<a href="#services">УСЛУГИ</a>
+					</li>
+					<li class="nav-item">
+						<a href="#info">ИНФОРМАЦИЯ</a>
+					</li>
+					<li class="nav-item">
+						<a href="#projects">ПРИМЕРЫ РАБОТ</a>
+					</li>
+					<li class="nav-item">
+						<a href="#prices">ЦЕНЫ</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contacts">КОНТАКТЫ</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="header__contacts mobile-only">
+			<div class="top-row">Телефон</div>
+			<div class="top-row">Адрес</div>
+			<div class="bottom-row"><a href="tel:">89898989898</a></div>
+			<div class="bottom-row"><a href="http://">г.Владимир</a></div>
+		</div>
+		<button id="clickBtn" class="menu-button">меню</button>
+
+		<div id="popup">
+			<div class="popup-container">
+				<div class="popup wrapper">
+
+					<div class="header__layout" data-aos="fade-down" data-aos-delay="100">
+						<div class="logo">
+							<img src="assets/images/logo@2x.jpg" alt="">
+						</div>
+						<button id="closeBtn" class="menu-button">закрыть</button>
+					</div>
+					<div class="header__menu">
+						<nav class="nav" data-aos="fade-right" data-aos-delay="200">
+							<ul>
+								<li class="nav-item">
+									<a href="#services">УСЛУГИ</a>
+								</li>
+								<li class="nav-item">
+									<a href="#info">ИНФОРМАЦИЯ</a>
+								</li>
+								<li class="nav-item">
+									<a href="#projects">ПРИМЕРЫ РАБОТ</a>
+								</li>
+								<li class="nav-item">
+									<a href="#prices">ЦЕНЫ</a>
+								</li>
+								<li class="nav-item">
+									<a href="#contacts">КОНТАКТЫ</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__contacts">
+						<div class="top-row">Телефон</div>
+						<div class="top-row">Адрес</div>
+						<div class="bottom-row"><a href="tel:">89898989898</a></div>
+						<div class="bottom-row"><a href="http://">г.Владимир</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<main class="main">
+
+		<section class="hero">
+			<div class="heading-block">
+				<h1 class="h1-title">Бесплатно оценим ваш проект</h1>
+				<div class="h1-subtitle">Заполните заявку на сайте и получите сметную стоимость!
+					<div class="arrow">
+						<div></div>
+					</div>
+				</div>
+			</div>
+			<div class="accent-block">
+				<img src="/assets/images/hero-image@2x-min.jpg" alt="">
+				<a href="#contacts" class="main-button" data-aos="fade-left" data-aos-delay="300">Расчет
+					стоимости</a>
+			</div>
+		</section>
+
+		<section class="kinds">
+			<h2 class="wrapper">Виды деятельности</h2>
+			<div class="row">
+				<div class="item">Разработка различных объектов<br>
+					с применением металлоконструкций
+					<div title="А" class="point"></div>
+				</div>
+				<div class="item">Проектирование конструкций из металла<br>
+					технологического оборудования
+					<div title="Б" class="point"></div>
+				</div>
+				<div class="item">Оптимизация проекта<br>
+					по снижению стоимостных показателей
+					<div title="В" class="point"></div>
+				</div>
+				<div class="item">Аудит проектных решений раздела КР<br>
+					по выявлению нарушений
+					<div title="Г" class="point"></div>
+				</div>
+				<div class="item">
+					<div title="Д" class="point"></div>
+				</div>
+			</div>
+			<hr class="divider">
+		</section>
+
+		<section id="services" class="services">
+			<h2 class="wrapper">Наши услуги</h2>
+			<div class="grid" onmouseenter="cursor.hidden = false" onmouseleave="cursor.hidden=true">
+				<div class="grid-cell">
+					<div class="top">РАЗРАБОТКА КМ</div>
+					<div class="bottom">Основные технические решения быстровозводимых зданий и металлических конструкций с
+						последующим созданием сметного расчета</div>
+				</div>
+				<div class="grid-cell">
+					<div class="top">ПРОЕКТИРОВАНИЕ КМД</div>
+					<div class="bottom">Расчет несущей способности всех узлов, комплект сборочных чертежей элементов конструкций,
+						необходимые спецификации и схемы</div>
+				</div>
+				<div class="grid-cell">
+					<div class="top">ПРОЕКТ КЖ</div>
+					<div class="bottom">Обеспечение технической возможности безопасной и долговечной эксплуатации сооружений из
+						железобетонных конструкций</div>
+				</div>
+				<div class="grid-cell">
+					<div class="top">ОПТИМИЗАЦИЯ</div>
+					<div class="bottom">Уменьшение стоимостных показателей строительства и трудоемкости изготовления
+						металлоконструкций</div>
+				</div>
+				<div id="cursor" hidden></div>
+			</div>
+		</section>
+
+		<section id="info" class="info wrapper">
+			<div class="info-block">
+				<div class="info-top">
+					<h2>Об организации</h2>
+					<p>
+						Профессиональные услуги проектирования металлоконструкций по цене от 300 рублей за тонну для строительства
+						быстровозводимых зданий, объектов промышленного и общего назначения. Заявки принимаются с минимальными
+						исходными данными (габаритные размеры будущего строения, место проведения строительных работ, назначение
+						сооружения).
+					</p>
+				</div>
+				<div class="info-bottom">
+					<a href="#contacts" class="main-button" data-aos="fade-left" data-aos-delay="300">Расчет
+						стоимости</a>
+					<p>*Бесплатно проведем анализ снижения стоимостных показателей вашего проекта.</p>
+				</div>
+			</div>
+			<div class="info-images">
+				<img class="image-bottom" src="assets/images/about-image-2@2x-min.jpg" alt="">
+				<img class="image-top" src="assets/images/about-image@2x-min.jpg" alt="">
+			</div>
+		</section>
+
+		<section id="projects" class="projects">
+			<h2 class="wrapper">Cпроектированные объекты</h2>
+			<div class="gallery">
+				<img src="assets/images/project-image@2x-min.jpg" alt="">
+				<img src="assets/images/project-image-2@2x-min.jpg" alt="">
+				<img src="assets/images/project-image-3@2x-min.jpg" alt="">
+			</div>
+			<div class="back-img"></div>
+		</section>
+
+		<section id="prices" class="prices">
+			<div class="descr wrapper">
+				<h2>Цены на проектирование</h2>
+				<p>*Оценка по данной таблице ориентировочная.<br>Окончательная стоимость проектных работ определяется после
+					получения технического задания от заказчика.</p>
+			</div>
+			<div class="table">
+				<div class="table-head">
+					<div class="table-cell">Объем МК, тонн</div>
+					<div class="table-cell">Цена/трудоемкость, руб/1 т</div>
+				</div>
+				<div class="table-body">
+					<div class="table-row">
+						<div class="table-cell"></div>
+						<div class="table-cell">Низкая</div>
+						<div class="table-cell">Нормальная</div>
+						<div class="table-cell">Высокая</div>
+					</div>
+					<div class="table-row">
+						<div class="table-cell">20-50</div>
+						<div class="table-cell">1000</div>
+						<div class="table-cell">1200</div>
+						<div class="table-cell">1500</div>
+					</div>
+					<div class="table-row">
+						<div class="table-cell">50-100</div>
+						<div class="table-cell">700</div>
+						<div class="table-cell">900</div>
+						<div class="table-cell">1100</div>
+					</div>
+					<div class="table-row">
+						<div class="table-cell">100-250</div>
+						<div class="table-cell">600</div>
+						<div class="table-cell">800</div>
+						<div class="table-cell">1000</div>
+					</div>
+					<div class="table-row">
+						<div class="table-cell">250-500</div>
+						<div class="table-cell">500</div>
+						<div class="table-cell">700</div>
+						<div class="table-cell">900</div>
+					</div>
+					<div class="table-row">
+						<div class="table-cell">1000-1500</div>
+						<div class="table-cell">400</div>
+						<div class="table-cell">600</div>
+						<div class="table-cell">800</div>
+					</div>
+					<div class="table-row">
+						<div class="table-cell">>1500</div>
+						<div class="table-cell">300</div>
+						<div class="table-cell">450</div>
+						<div class="table-cell">600</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contacts" class="cta">
+			<div class="naming wrapper">
+				<h2>Получить точный расчет</h2>
+				<p>Подарим КМД при заказе оптимизации проекта!<br>
+					*В случае снижения стоимостных показателей на 1 млн руб. и более</p>
+			</div>
+			<form class="form" action="">
+				<input class="input area-a" type="text" id="fio" placeholder="ФИО" required>
+				<input class="input area-b" type="tel" id="tel" placeholder="Телефон" required>
+				<input class="input area-c" type="email" id="email" placeholder="Электронный адрес" required>
+				<input class="input area-d" type="text" placeholder="Место строительства">
+				<input class="input area-e" type="text" placeholder="Высота до низа конструкции покрытия">
+				<input class="input area-f" type="text" placeholder="Наличие окон">
+				<input class="input area-g" type="text" placeholder="Наличие ворот (Габарит)">
+				<input class="input area-h" type="text" placeholder="Наличие кран-балки (Грузоподъемность)">
+				<input class="input area-i" type="text" placeholder="Назначение сооружения">
+				<input class="input area-j" type="text" placeholder="Дополнительная информация">
+				<input class="main-button" type="button" value="ОТПРАВИТЬ">
+			</form>
+		</section>
+
+	</main>
+
+	<footer class="footer wrapper">
+		<div class="footer__layout" data-aos="fade-up" data-aos-delay="100">
+			<div class="footer__block">
+				<a class="cell" href="/">Политика конфиденциальности</a>
+				<a class="cell" href="/">Правила и условия</a>
+				<div class="cell">Разраб.</div>
+				<a class="cell" href="https://t.me/alastaraven" target="_blank" rel="noopener noreferrer">alastaraven</a>
+			</div>
+			<div class="footer__nav">
+				<nav class="nav-block">
+					<ul>
+						<li class="nav-link">
+							<a href="#services">УСЛУГИ</a>
+						</li>
+						<li class="nav-link">
+							<a href="#info">ИНФОРМАЦИЯ</a>
+						</li>
+						<li class="nav-link">
+							<a href="#projects">ПРИМЕРЫ РАБОТ</a>
+						</li>
+						<li class="nav-link">
+							<a href="#prices">ЦЕНЫ</a>
+						</li>
+						<li class="nav-link">
+							<a href="#contacts">КОНТАКТЫ</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer__contacts">
+				<div class="cell top">
+					ТЕЛЕФОН
+				</div>
+				<div class="cell top">
+					АДРЕС
+				</div>
+				<a href="tel:" target="_blank" rel="noopener noreferrer" class="cell bottom">89898989898</a>
+				<a href="http://" target="_blank" rel="noopener noreferrer" class="cell bottom">г. Владимир</a>
+			</div>
+			<div class="footer__info">
+				<div class="cell">© 2023 ВЛАДКОНСТРУКЦИИ, ПРАВА ЗАЩИЩЕНЫ</div>
+				<div class="cell">
+					<img src="assets/images/logo@2x.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+	<script src="js/main.js"></script>
+	<script src="libs/aos/aos.js"></script>
+	<!-- Initialize AOS -->
+	<script>
+		/*AOS.init({
+			// Global settings:
+			disable: 'mobile', // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+			startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+			initClassName: 'aos-init', // class applied after initialization
+			animatedClassName: 'aos-animate', // class applied on animation
+			useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+			disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+			debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+			throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+			// Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+			offset: 300, // offset (in px) from the original trigger point
+			delay: 0, // values from 0 to 3000, with step 50ms
+			duration: 500, // values from 0 to 3000, with step 50ms
+			easing: 'ease', // default easing for AOS animations
+			once: false, // whether animation should happen only once - while scrolling down
+			mirror: false, // whether elements should animate out while scrolling past them
+			anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+		});
+		*/
+	</script>
+
+</body>
+
+</html>
