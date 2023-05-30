@@ -20,7 +20,7 @@
 
 	@font-face {
 		font-family: 'Evolventa';
-		src: url('/assets/fonts/Evolventa/Evolventa-Regular.woff2') format('woff2');
+		src: url('/vladkonstr/assets/fonts/Evolventa/Evolventa-Regular.woff2') format('woff2');
 		font-display: swap;
 	}
 	
@@ -662,7 +662,7 @@
 		height: 300px;
 		top: -54px;
 		position: absolute;
-		background: url('/assets/svg/Vector.svg');
+		background: url('/vladkonstr/assets/svg/Vector.svg');
 		background-position: center;
 		background-repeat: repeat-x;
 		background-size: contain;
